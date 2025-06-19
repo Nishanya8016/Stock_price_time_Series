@@ -25,16 +25,16 @@ This project compares classical and deep learning time-series models for predict
 
 ```bash
 ├── notebooks/
-│   ├── 01_preprocessing.ipynb         # Data cleaning, feature engineering
-│   ├── 02_arima_reliance.ipynb        # Classical ARIMA modeling
-│   ├── 03_garch_init.ipynb      # GARCH for volatility prediction
+│   ├── 01_arima_init.ipynb         # Classical ARIMA modeling
+│   ├── 02_garch_init.ipynb        # GARCH for volatility prediction
+│   ├── 03_prophet_init.ipynb      # Classical PROPHET modeling
 │   ├── 04_rnn_lstm.ipynb              # RNN and LSTM models
 │   ├── 05_tcn_transformer.ipynb       # Deep learning: TCN and Transformer
 │   └── 06_results_comparison.ipynb    # Evaluation and visualization
 ├── data/
 │   └── RELIANCE.csv                   # Stock data (source: Kaggle Nifty 50)
 ├── results/
-│   └── plots/                         # Prediction vs actual plots
+│   └── plots                         # Prediction vs actual plots
 │   └── metrics.csv                    # Evaluation metrics for all models
 ├── README.md
 └── requirements.txt
