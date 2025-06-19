@@ -19,6 +19,16 @@ This project compares classical and deep learning time-series models for predict
   - TCN (Temporal Convolutional Network)
   - Time Series Transformer
 
+## 📅 Dataset
+Source: Nifty 50 Stock Market Data (Kaggle)
+
+Stock: RELIANCE
+
+Columns: Date, Open, High, Low, Close, Volume, etc.
+
+Frequency: Daily
+
+Range: Jan 2000 – April 2021
 ---
 
 ## 🗂️ Project Structure
