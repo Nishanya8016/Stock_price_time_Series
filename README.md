@@ -13,10 +13,11 @@ This project compares classical and deep learning time-series models for predict
 - 🔍 Compare model performance across:
   - ARIMA
   - GARCH
+  - PROPHET
   - RNN
   - LSTM
   - TCN (Temporal Convolutional Network)
-  - Transformer
+  - Time Series Transformer
 
 ---
 
