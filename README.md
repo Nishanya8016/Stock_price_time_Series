@@ -40,8 +40,8 @@ Range: Jan 2000 – April 2021
 │   ├── 03_prophet_init.ipynb      # Classical PROPHET modeling
 │   ├── 04_tcn_init.ipynb       # Deep learning: TCN
 │   ├── 05_time_series_transformer_init.ipynb     #Deep learning: Transformer
-│   ├── 06_rnn.ipynb              # RNN model
-│   ├── 07_lstm.ipynb         # LSTM model
+│   ├── 06_rnn_init.ipynb              # RNN model
+│   ├── 07_lstm_init.ipynb         # LSTM model
 ├── data/
 │   └── RELIANCE.csv                   # Stock data (source: Kaggle Nifty 50)
 ├── README.md
