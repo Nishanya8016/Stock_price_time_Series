@@ -67,7 +67,7 @@ Below are the performance results of different models based on **Accuracy** and 
 
 ## 🔍 Summary
 
-- **Best Accuracy**: Achieved by the **Time-Series Transformer** (0.6522).
+- **Best Accuracy**: Achieved by the **LSTM** (	0.9853).
 - **Lowest RMSE**: Achieved by the **GARCH** model (0.0205), showing precise predictions despite its lower accuracy.
 - **Most balanced performance**: **TCN** provided a stable middle ground with decent accuracy and RMSE.
 
