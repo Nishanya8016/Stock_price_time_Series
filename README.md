@@ -62,8 +62,8 @@ Below are the performance results of different models based on **Accuracy** and 
 | Prophet (by Meta)        | 0.5333   | 210.6119  |
 | TCN                      | 0.5172   | 67.3219   |
 | Time-Series Transformer  | 0.6522   | 0.5094    |
-| RNN                      |    |     |
-| LSTM                     | 0.9853   | 70.9129    |
+| RNN                      |  0.4444  | 1503.6541 |
+| LSTM                     | 0.9853   | 70.9129   |
 
 ## 🔍 Summary
 
