@@ -71,6 +71,14 @@ Below are the performance results of different models based on **Accuracy** and 
 - **Lowest RMSE**: Achieved by the **GARCH** model (0.0205), showing precise predictions despite its lower accuracy.
 - **Most balanced performance**: **TCN** provided a stable middle ground with decent accuracy and RMSE.
 
+## 📦 Installation
+
+Install using:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 📊 Dataset
 The dataset used is from [Kaggle - Nifty 50 Stock Market Data](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data), focusing on `RELIANCE.csv`.
 
