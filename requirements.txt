@@ -1,0 +1,42 @@
+# Data manipulation and utilities
+pandas==2.1.0              # Data loading, preprocessing, and time-series handling[1]
+numpy==1.25.0              # Numerical computations[2]
+
+# Statistical and time-series models
+statsmodels==0.14.0        # ARIMA and seasonal decomposition[3]
+arch==6.1.0                # GARCH volatility modeling[4]
+
+# Machine learning and deep learning
+scikit-learn==1.2.2        # Metrics and preprocessing utilities[5]
+torch==2.0.1               # PyTorch core library for neural networks[6]
+torchvision==0.15.2        # Auxiliary tools for vision (if needed)[6]
+
+# Optional: model training and logging
+matplotlib==3.8.0          # Result visualization[7]
+seaborn==0.12.2            # Enhanced statistical plotting[8]
+
+# Experiment management (optional)
+hydra-core==1.3.2          # Configuration management in Python[9]
+wandb==0.15.6              # Experiment tracking and hyperparameter tuning[10]
+
+Notes:
+
+Versions correspond to stable releases as of June 2025; adjust if newer compatibility is required.
+
+Install using:
+
+bash
+pip install -r requirements.txt
+You may exclude optional packages (torchvision, hydra-core, wandb) if not used in your workflow.
+
+References
+pandas documentation: https://pandas.pydata.org/
+NumPy documentation: https://numpy.org/
+statsmodels ARIMA: https://www.statsmodels.org/
+arch package: https://arch.readthedocs.io/
+scikit-learn metrics: https://scikit-learn.org/
+PyTorch releases: https://pytorch.org/
+matplotlib: https://matplotlib.org/
+seaborn: https://seaborn.pydata.org/
+Hydra core docs: https://hydra.cc/
+Weights & Biases docs: https://wandb.ai/
