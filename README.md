@@ -63,7 +63,7 @@ Below are the performance results of different models based on **Accuracy** and 
 | TCN                      | 0.5172   | 67.3219   |
 | Time-Series Transformer  | 0.6522   | 0.5094    |
 | RNN                      |    |     |
-| LSTM                     |    | 70.9129    |
+| LSTM                     | 0.9853   | 70.9129    |
 
 ## 🔍 Summary
 
