@@ -38,14 +38,12 @@ Range: Jan 2000 – April 2021
 │   ├── 01_arima_init.ipynb         # Classical ARIMA modeling
 │   ├── 02_garch_init.ipynb        # GARCH for volatility prediction
 │   ├── 03_prophet_init.ipynb      # Classical PROPHET modeling
-│   ├── 04_rnn_lstm.ipynb              # RNN and LSTM models
-│   ├── 05_tcn_transformer.ipynb       # Deep learning: TCN and Transformer
-│   └── 06_results_comparison.ipynb    # Evaluation and visualization
+│   ├── 04_tcn_init.ipynb       # Deep learning: TCN
+│   ├── 05_time_series_transformer_init.ipynb     #Deep learning: Transformer
+│   ├── 06_rnn.ipynb              # RNN model
+│   ├── 07_lstm.ipynb         # LSTM model
 ├── data/
 │   └── RELIANCE.csv                   # Stock data (source: Kaggle Nifty 50)
-├── results/
-│   └── plots                         # Prediction vs actual plots
-│   └── metrics.csv                    # Evaluation metrics for all models
 ├── README.md
 └── requirements.txt
 ```
