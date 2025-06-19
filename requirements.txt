@@ -23,11 +23,6 @@ Notes:
 
 Versions correspond to stable releases as of June 2025; adjust if newer compatibility is required.
 
-Install using:
-
-```bash
-pip install -r requirements.txt
-```
 
 You may exclude optional packages (torchvision, hydra-core, wandb) if not used in your workflow.
 
