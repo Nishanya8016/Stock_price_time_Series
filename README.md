@@ -64,11 +64,11 @@ Below are the performance results of different models based on **Accuracy**, **R
 | RNN                      |  0.5138  | 39.8871   | 21.9619  | 1590.9779| 0.6826  |
 | LSTM                     | 0.5033   | 70.9129   | 46.2609  | 5028.639 | 0.3336  |
 
-GARCH was only used to find Volatility, not for prediction of Closing price
+GARCH Model was only used to find Volatility, not for prediction of Closing price
 
 | Model                    | Accuracy |   RMSE    |    MAE   |    MSE   |
 |--------------------------|----------|-----------|----------|----------|
-| GARCH                    | 0.2066   | 0.0205    | 0.0138   | 0.0004   |
+| GARCH  (Volatility only) | 0.2066   | 0.0205    | 0.0138   | 0.0004   |
 
 ## 🔍 Summary
 
