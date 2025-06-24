@@ -57,7 +57,7 @@ Below are the performance results of different models based on **Accuracy** and 
 
 | Model                    | Accuracy |   RMSE    |    MAE   |    MSE   |
 |--------------------------|----------|-----------|----------|----------|
-| ARIMA                    | 0.5080   | 93.6875   |          | 8777.347 |
+| ARIMA                    | 0.5080   | 93.6875   | 40.2438  | 8777.347 |
 | GARCH                    | 0.2066   | 0.0205    | 0.0138   | 0.0004   |
 | Prophet (by Meta)        | 0.5333   | 210.6119  | 210.6119 | 44357.246|
 | TCN                      | 0.5172   | 67.3219   | 67.3219  | 4532.238 |
