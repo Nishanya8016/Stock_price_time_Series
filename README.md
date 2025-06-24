@@ -55,15 +55,15 @@ This project focuses on comparing various time series forecasting models using t
 
 Below are the performance results of different models based on **Accuracy** and **RMSE (Root Mean Squared Error)**:
 
-| Model                    | Accuracy |   RMSE    |
-|--------------------------|----------|-----------|
-| ARIMA                    | 0.5080   | 93.6875   |
-| GARCH                    | 0.2066   | 0.0205    |
-| Prophet (by Meta)        | 0.5333   | 210.6119  |
-| TCN                      | 0.5172   | 67.3219   |
-| Time-Series Transformer  | 0.6522   | 0.5094    |
-| RNN                      |  0.4444  | 1503.6541 |
-| LSTM                     | 0.5033   | 70.9129   |
+| Model                    | Accuracy |   RMSE    |    MAE   |
+|--------------------------|----------|-----------|----------|
+| ARIMA                    | 0.5080   | 93.6875   |          |
+| GARCH                    | 0.2066   | 0.0205    | 0.0138   |
+| Prophet (by Meta)        | 0.5333   | 210.6119  | 210.6119 |
+| TCN                      | 0.5172   | 67.3219   | 67.3219  |
+| Time-Series Transformer  | 0.6522   | 0.5094    | 0.4079   |
+| RNN                      |  0.4444  | 1503.6541 | 1442.3790|
+| LSTM                     | 0.5033   | 70.9129   | 46.2609  |
 
 ## 🔍 Summary
 
