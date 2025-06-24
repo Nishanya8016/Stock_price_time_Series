@@ -53,7 +53,7 @@ This project focuses on comparing various time series forecasting models using t
 
 ## 🧪 Models & Evaluation Metrics
 
-Below are the performance results of different models based on **Accuracy** and **RMSE (Root Mean Squared Error)**:
+Below are the performance results of different models based on **Accuracy**, **RMSE (Root Mean Squared Error)**, **MAE (Mean Absolute Error)**, **MSE (Mean Squared Error)** and **F1 Score**:
 
 | Model                    | Accuracy |   RMSE    |    MAE   |    MSE   |    F1   |
 |--------------------------|----------|-----------|----------|----------|---------|
