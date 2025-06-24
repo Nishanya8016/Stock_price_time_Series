@@ -58,12 +58,17 @@ Below are the performance results of different models based on **Accuracy**, **R
 | Model                    | Accuracy |   RMSE    |    MAE   |    MSE   |    F1   |
 |--------------------------|----------|-----------|----------|----------|---------|
 | ARIMA                    | 0.5080   | 93.6875   | 40.2438  | 8777.347 | 0.5000  |
-| GARCH                    | 0.2066   | 0.0205    | 0.0138   | 0.0004   |         |
 | Prophet (by Meta)        | 0.5333   | 210.6119  | 210.6119 | 44357.246| 0.5333  |
 | TCN                      | 0.5172   | 67.3219   | 67.3219  | 4532.238 | 0.5172  |
 | Time-Series Transformer  | 0.6522   | 0.5094    | 0.4079   | 0.2594   |         |
 | RNN                      |  0.5138  | 39.8871   | 21.9619  | 1590.9779| 0.6826  |
 | LSTM                     | 0.5033   | 70.9129   | 46.2609  | 5028.639 | 0.3336  |
+
+GARCH was only used to find Volatility, not for prediction of Closing price
+
+| Model                    | Accuracy |   RMSE    |    MAE   |    MSE   |
+|--------------------------|----------|-----------|----------|----------|
+| GARCH                    | 0.2066   | 0.0205    | 0.0138   | 0.0004   |
 
 ## 🔍 Summary
 
