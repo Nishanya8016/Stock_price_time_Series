@@ -61,7 +61,7 @@ Below are the performance results of different models based on **Accuracy**, **R
 | Prophet (by Meta)        | 0.5333   | 210.6119  | 210.6119 | 44357.246| 0.5333  |
 | TCN                      | 0.5172   | 67.3219   | 67.3219  | 4532.238 | 0.5172  |
 | Time-Series Transformer  | 0.6522   | 0.5094    | 0.4079   | 0.2594   | 0.7465  |
-| RNN                      |  0.5138  | 39.8871   | 21.9619  | 1590.9779| 0.6826  |
+| RNN                      |  0.5138  | 0.006794   | 0.002529  | 0.000046| 0.6826  |
 | LSTM                     | 0.5033   | 70.9129   | 46.2609  | 5028.639 | 0.3336  |
 
 GARCH Model was only used to find Volatility, not for prediction of Closing price
